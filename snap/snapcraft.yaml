@@ -9,8 +9,8 @@ grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
 
 apps:
-  speedtest-cli:
-    command: speedtest-cli
+  speedtest-cli-esm:
+    command: speedtest-cli-esm
     plugs: [network] #al estar el confinement en 'strict', es necesario añadir permisos sobre network
 
 parts:
